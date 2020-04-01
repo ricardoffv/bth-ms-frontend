@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './Header';
+import Routes from './Routes';
+import './global.css';
 
 function App() {
   return (
-    <Header title="Be the hero!" />
+    <Routes />
   );
 }
 
